@@ -1,27 +1,40 @@
-# Lindemayer-system
+# Lindenmayer System
 
-A Lindenmayer system is defined iteratively, and it consists of:
-a) an alphabet of symbols which can be used to create strings, 
-b) an initial string used to begin the iterative construction and
-c) replacement rules that specify how to replace selected symbols of the string by strings of symbols (from the
-same alphabet). 
-Originally, these Lindenmayer systems were used to describe the behaviour of plant cells and
-to model the growth processes of plant development. In this exercise you will work with two systems called the Koch curve and the Sierpinski triangle.
-**Koch curve**
-The Koch curve can be generated using a) an alphabet consisting of the symbols S, L and R, b) the
-initial string ’S’ and c) the replacement rules
-S → SLSRSLS
-L → L
-R → R
-The initial string is S. After the first iteration one obtains the string SLSRSLS. After the second iteration
-one obtains the string SLSRSLSLSLSRSLSRSLSRSLSLSLSRSLS
+## Description
+A Lindenmayer system (L-system) is defined iteratively, consisting of:
+- An alphabet of symbols to create strings.
+- An initial string for iterative construction.
+- Replacement rules specifying how to replace symbols with strings from the same alphabet. 
 
-**Sierpinski triangle** 
-The Sierpinski triangle can be generated using a) an alphabet consisting of the symbols A,
-B, L and R, b) the initial string A and c) the replacement rules for each step of the iteration.
-A → BRARB
-B → ALBLA
-L → L
-R → R
-The initial string is A. After the first iteration one obtains the string BRARB. After the second iteration
-one obtains the string ALBLARBRARBRALBLA. 
+Originally used to describe plant cell behavior and model plant development growth processes.
+
+## Systems
+In this exercise, we explore two systems: the Koch curve and the Sierpinski triangle.
+
+### Koch Curve
+- Alphabet: S, L, R
+- Initial string: S
+- Replacement rules:
+  - S → SLSRSLS
+  - L → L
+  - R → R
+- Example iterations:
+  - Initial: S
+  - After 1st iteration: SLSRSLS
+  - After 2nd iteration: SLSRSLSLSLSRSLSRSLSRSLSLSLSRSLS
+
+### Sierpinski Triangle
+- Alphabet: A, B, L, R
+- Initial string: A
+- Replacement rules:
+  - A → BRARB
+  - B → ALBLA
+  - L → L
+  - R → R
+- Example iterations:
+  - Initial: A
+  - After 1st iteration: BRARB
+  - After 2nd iteration: ALBLARBRARBRALBLA
+
+## Notes
+Ensure the formatting of your README is correct when committing changes to avoid any discrepancies.
