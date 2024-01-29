@@ -36,5 +36,3 @@ In this exercise, we explore two systems: the Koch curve and the Sierpinski tria
   - After 1st iteration: BRARB
   - After 2nd iteration: ALBLARBRARBRALBLA
 
-## Notes
-Ensure the formatting of your README is correct when committing changes to avoid any discrepancies.
